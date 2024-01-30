@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #607274;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/*navbar*/
+#navbarNavAltMarkup{
+    font-size:larger;
+}
+
+.navbar-nav{
+    padding-left: 75%;
+}
+
+#navbarBG{
+    background-color: #105652;
+}
+
+.navbar-brand{
+    padding-left: 10px;
+}
+
+#nav-color{
+    color: #FAEED1;
+}
+
+/*text*/
+.textpage{
+    height: 100vh;
+    padding: 0 10%;
+    align-items: center;
+    padding-top: 17%;
+    display: inline-block;
+}
+.textpage h1{
+    font-weight: bold;
+    color: #DED0B6;
+}
+
+.textpage-img{
+    display: inline-block;
+    
+}
+.textpage-img img{
+    height: 700px;
+    border: 5px solid white;
+}
+
+.textpage-img{
+    padding-left: 10px;
+}
+
+/*About Me*/
+.aboutme{
+    padding-top: 1%;
+    background-color: #FAEED1;
+    text-align: center;
+}
+
+.aboutme h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#aboutme{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0 10%;
+    font-size: larger;
+    text-align: justify;
+}
+
+/*button*/
+#button{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+#button .button{
+    background-color: #105652;
+    font-weight:200;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+/*Carousel*/
+#carousel{
+    max-height: 80%;
+    max-width: 80%;
+    padding-left: 20%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    object-position: center;
+}
+
+#carousel h5, p{
+    color: black;
+}
+
+/*footer*/
+#footer{
+    text-align: center;
+    background-color: #105652;
+    color: white;
+}
+
+#contact{
+    text-align: center;
+    background-color: #FAEED1;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
